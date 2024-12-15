@@ -184,7 +184,7 @@ public class SearchAlgs {
 
     }
 
-    public static int jumpSearch(int[] arr, int searchable) {       //test
+    public static int jumpSearch(int[] arr, int searchable) {
         int jumpSize = (int) Math.floor(Math.sqrt(arr.length));
         int temp = 0;
         while ( searchable > arr[jumpSize] ) {
