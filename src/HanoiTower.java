@@ -10,9 +10,11 @@ public class HanoiTower {
         if (n == 0) {
             return;
         }
+
         towerOfHanoi(n - 1, from_peg, aux_peg, to_peg);
         System.out.println("Move disk " + n + " from rod " + from_peg + " to rod " + to_peg);
         towerOfHanoi(n - 1, aux_peg, to_peg, from_peg);
+
     }
 
 }
