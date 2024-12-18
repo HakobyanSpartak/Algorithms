@@ -208,7 +208,7 @@ public class SearchAlgs {
 
         return Arrays.binarySearch(arr, h/2,Math.min(h, arr.length-1), searchable);
 
-//        if ( h <= arr.length-1 ) {
+//        if ( h <= arr.length-1 ) {/
 //            h = h*h;
 //
 //            if (searchable < arr[h]) {
