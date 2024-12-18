@@ -32,7 +32,7 @@ public class SearchAlgs {
 //        System.out.println(linearSearch(ar,99));
 //        System.out.println("arr len: " + arr.length);
         System.out.println(jumpSearch(arr, 26));
-        /*System.out.println(interpolationSearch(arr, 21));*/  //16 i depqum qcum a anverj cikl
+        System.out.println(interpolationSearch(arr, 21));  //16 i depqum qcum a anverj cikl
 //        System.out.println(exponentialSearch(arr,18));
 
     }
@@ -59,9 +59,7 @@ public class SearchAlgs {
             }
             else {
                 System.out.println( l + ": old l ");
-
                 l = pos;
-
                 System.out.println( l + ": new l ");
 
                 pos = (int) Math.floor( l + ( (double) ((searchable - arr[l]) * (h - l)) /(arr[h]-arr[l])) + 1);
