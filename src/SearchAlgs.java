@@ -170,7 +170,7 @@ public class SearchAlgs {
                 mid1 = l + (r - l) / 3;
                 mid2 = r - (r - l) / 3;
             }
-            else /*if ( searchable > mid1 && searchable < mid2 )*/ {
+            else /*if ( searchable > mid1 && searjchable < mid2 )*/ {
                 l = mid1;
                 r = mid2;
                 mid1 = l + (r - l) / 3;
